@@ -4,39 +4,47 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="styles.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap"
+            rel="stylesheet"
+        />
         <title>Landing Page</title>
     </head>
     <body>
-        <header class="header">
-            <h2 class="header__logo">Header Logo</h2>
+        <div class="hero">
+            <header>
+                <h2 class="header__logo">Header Logo</h2>
 
-            <nav class="header__link">
-                <a href="#" class="header__item">header link one</a>
-                <a href="#" class="header__item">header link two</a>
-                <a href="#" class="header__item">header link three</a>
+                <nav class="header__link">
+                    <a href="#" class="header__item">header link one</a>
+                    <a href="#" class="header__item">header link two</a>
+                    <a href="#" class="header__item">header link three</a>
+                </nav>
+            </header>
 
-                <!-- <ul class="header__list">
-                    <li class="header__item">header link one</li>
-                    <li class="header__item">header link two</li>
-                    <li class="header__item">header link three</li>
-                </ul> -->
-            </nav>
-        </header>
+            <section class="hero__content">
+                <div class="hero__text-container">
+                    <h1 class="hero__main-text">This website is awesome</h1>
+                    <p class="hero__secondary-text">
+                        This website has some subtext that goes here under the
+                        main title. It's a smaller font and the color is lower
+                        contrast
+                    </p>
+                    <button type="button" class="hero__button">Sign up</button>
+                </div>
 
-        <section class="hero">
-            <h1 class="hero__main-text">This website is awesome</h1>
-            <p class="hero__secondary-text">
-                This website has some subtext that goes here under the main
-                title. It's a smaller font and the color is lower contrast
-            </p>
-            <button class="hero__button">Sign up</button>
-
-            <img
-                class="hero__image"
-                src="https://via.placeholder.com/915x415"
-                alt="Placeholder image"
-            />
-        </section>
+                <img
+                    class="hero__image"
+                    src="https://via.placeholder.com/450x200"
+                    alt="Placeholder image"
+                />
+            </section>
+        </div>
 
         <section class="info">
             <h1 class="info__title">Some random information</h1>
@@ -45,7 +53,7 @@
                 <div class="info__item">
                     <img
                         class="info__image"
-                        src="https://via.placeholder.com/300"
+                        src="https://via.placeholder.com/150"
                         alt="Placeholder image"
                     />
                     <p class="info__description">
@@ -56,7 +64,7 @@
                 <div class="info__item">
                     <img
                         class="info__image"
-                        src="https://via.placeholder.com/300"
+                        src="https://via.placeholder.com/150"
                         alt="Placeholder image"
                     />
                     <p class="info__description">
@@ -67,7 +75,7 @@
                 <div class="info__item">
                     <img
                         class="info__image"
-                        src="https://via.placeholder.com/300"
+                        src="https://via.placeholder.com/150"
                         alt="Placeholder image"
                     />
                     <p class="info__description">
@@ -78,7 +86,7 @@
                 <div class="info__item">
                     <img
                         class="info__image"
-                        src="https://via.placeholder.com/300"
+                        src="https://via.placeholder.com/150"
                         alt="Placeholder image"
                     />
                     <p class="info__description">
@@ -109,10 +117,11 @@
                 there!
             </p>
 
-            <button class="signup-reminder__button">Sign up</button>
+            <button type="button" class="signup-reminder__button">
+                Sign up
+            </button>
         </div>
-
-        <footer class="footer">
+        <footer>
             <p class="footer__text">Copyright &copy The Odin Project 2021</p>
         </footer>
     </body>
