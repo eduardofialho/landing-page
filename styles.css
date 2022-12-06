@@ -120,7 +120,7 @@ header {
     align-items: center;
 
     padding: 13rem 0;
-    margin-bottom: 6rem;
+    margin-bottom: 9rem;
 }
 
 .quote__text {
@@ -128,7 +128,7 @@ header {
     font-weight: 300;
     font-style: italic;
 
-    max-width: 78rem;
+    max-width: 79rem;
 
     color: var(--midnight);
 }
@@ -139,4 +139,37 @@ header {
 
     font-weight: 700;
     font-size: 2.2rem;
+}
+
+.signup-reminder {
+    background-color: var(--dodger-blue);
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    gap: 16rem;
+
+    padding: 5rem 12rem;
+    max-width: 96rem;
+    margin: 0 auto 9rem auto;
+}
+
+.signup-reminder__main-text {
+    color: var(--salt-pan);
+}
+
+.signup-reminder__secondary-text {
+    color: var(--solitude);
+}
+
+.signup-reminder__button {
+    padding: 0 2.8rem;
+    height: 3.5rem;
+    border-radius: 8px;
+    background-color: var(--dodger-blue);
+    border: 2px solid var(--salt-pan);
+
+    color: var(--salt-pan);
+    font-size: 1.6rem;
+    font-weight: 600;
 }
