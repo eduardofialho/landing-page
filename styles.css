@@ -111,3 +111,32 @@ header {
     max-width: 15rem;
     text-align: center;
 }
+
+.quote {
+    background-color: var(--solitude);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 13rem 0;
+    margin-bottom: 6rem;
+}
+
+.quote__text {
+    font-size: 3.6rem;
+    font-weight: 300;
+    font-style: italic;
+
+    max-width: 78rem;
+
+    color: var(--midnight);
+}
+
+.quote__author {
+    display: flex;
+    justify-content: end;
+
+    font-weight: 700;
+    font-size: 2.2rem;
+}
