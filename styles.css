@@ -176,7 +176,8 @@ header {
 
 footer {
     background-color: var(--midnight);
-    text-align: center;
     color: var(--salt-pan);
+    text-align: center;
+
     padding: 3.8rem;
 }
